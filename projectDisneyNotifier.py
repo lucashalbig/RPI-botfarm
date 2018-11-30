@@ -80,27 +80,42 @@ def getData():
         timeprint('Neue Daten erhalten')
         return True
     elif r.status_code == 304:
-       timeprint('Nix verändert auf der Seite von Disney')
+        timeprint('Nix verändert auf der Seite von Disney')
         return False
     else:
         timeprint(f'Unerwarteten Status-Code erhalten {r.status_code}')
+        
+def stop(bot, update):
+    try:
+        updater.stop()
+        dispatcher.stop()
+        jq.stop()
+        updater.idle()
+    finally:
+        sexit(0)
+    
+dispatcher.add_handler(CommandHandler('stop', stop))
     
     
 def callback_minute(bot, job):
     wanted_date = time.strftime('%Y-%m-%d')
     isNew = getData()
-    for object in botdata:
-        if ojbect.isdigit():
-            object = botdata[object]
-            for item in object['watchedlist']:
+    for possible_id in botdata:
+        if possible_id.isdigit():
+            object = botdata[possible_id]
+            for item_wl in object['watchedlist']:
                 for item in disneydata['social']:
                     published = item['published']
                     if published.startswith(wanted_date):
                         real_object = item['object']
                         if real_object['objectType'] == 'video':
                             displayName = real_object['displayName']
-                            kaltura_id = real_object['kaltura']['id']
-                            if displayName.startswith(
+                            kaltura_id = real_object['kaltura']['id'].replace('_',r'\_')
+                            if displayName.startswith(item_wl):
+                                if kaltura_id not in botdata[possible_id]['sent_videos']:
+                                    downloadURL = fr'https://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry\_id/{kaltura_id}/version/0'
+                                    bot.send_message(int(possible_id), f'*{displayName}*\n{downloadURL}', parse_mode = 'Markdown')
+                                    botdata[possible_id]['sent_videos'].append(kaltura_id)
                         
     jq.run_once(callback_minute, 60)
 job_minute = jq.run_once(callback_minute, 0)
