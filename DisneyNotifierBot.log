@@ -1,0 +1,289 @@
+2018-11-30 17:06:01,047 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7578a090>
+2018-11-30 17:06:01,048 - JobQueue - DEBUG - Putting job callback_minute with t=1543593961.048622
+2018-11-30 17:06:01,050 - JobQueue - DEBUG - Ticking jobs with t=1543593961.050149
+2018-11-30 17:06:01,050 - JobQueue - DEBUG - JobQueue thread started
+2018-11-30 17:06:01,051 - JobQueue - DEBUG - Peeked at callback_minute with t=1543593961.048622
+2018-11-30 17:06:01,052 - telegram.ext.updater - DEBUG - dispatcher - started
+2018-11-30 17:06:01,053 - JobQueue - DEBUG - Running job callback_minute
+2018-11-30 17:06:01,058 - telegram.ext.updater - DEBUG - updater - started
+2018-11-30 17:06:01,068 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2018-11-30 17:06:01,068 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2018-11-30 17:06:01,069 - telegram.bot - DEBUG - Entering: delete_webhook
+2018-11-30 17:06:01,072 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org
+2018-11-30 17:06:01,083 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2018-11-30 17:06:01,268 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/deleteWebhook HTTP/1.1" 200 68
+2018-11-30 17:06:01,269 - telegram.bot - DEBUG - True
+2018-11-30 17:06:01,270 - telegram.bot - DEBUG - Exiting: delete_webhook
+2018-11-30 17:06:01,270 - telegram.ext.updater - DEBUG - Bootstrap done
+2018-11-30 17:06:01,270 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2018-11-30 17:06:01,271 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:01,568 - JobQueue - DEBUG - Putting job callback_minute with t=1543594021.568769
+2018-11-30 17:06:01,569 - JobQueue - DEBUG - Dropping non-repeating or removed job callback_minute
+2018-11-30 17:06:01,570 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594021.568769
+2018-11-30 17:06:01,571 - JobQueue - DEBUG - Next task isn't due yet. Finished!
+2018-11-30 17:06:06,281 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:06,282 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:06,284 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.telegram.org
+2018-11-30 17:06:11,466 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:11,468 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:11,471 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (3): api.telegram.org
+2018-11-30 17:06:16,666 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:16,668 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:16,670 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (4): api.telegram.org
+2018-11-30 17:06:21,844 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:21,845 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:21,847 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (5): api.telegram.org
+2018-11-30 17:06:26,998 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:26,999 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:28,286 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (6): api.telegram.org
+2018-11-30 17:06:33,463 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:33,465 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:33,467 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (7): api.telegram.org
+2018-11-30 17:06:38,619 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:38,620 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:38,622 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (8): api.telegram.org
+2018-11-30 17:06:43,794 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:43,795 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:43,798 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (9): api.telegram.org
+2018-11-30 17:06:48,980 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:48,981 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:48,983 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (10): api.telegram.org
+2018-11-30 17:06:54,138 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:06:54,139 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:06:54,998 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (11): api.telegram.org
+2018-11-30 17:07:00,175 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:00,176 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:00,178 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (12): api.telegram.org
+2018-11-30 17:07:01,569 - JobQueue - DEBUG - Ticking jobs with t=1543594021.569126
+2018-11-30 17:07:01,570 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594021.568769
+2018-11-30 17:07:01,571 - JobQueue - DEBUG - Running job callback_minute
+2018-11-30 17:07:01,858 - JobQueue - DEBUG - Putting job callback_minute with t=1543594081.858839
+2018-11-30 17:07:01,859 - JobQueue - DEBUG - Dropping non-repeating or removed job callback_minute
+2018-11-30 17:07:01,859 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594081.858839
+2018-11-30 17:07:01,860 - JobQueue - DEBUG - Next task isn't due yet. Finished!
+2018-11-30 17:07:05,343 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:06,591 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:06,593 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (13): api.telegram.org
+2018-11-30 17:07:06,768 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/getUpdates HTTP/1.1" 200 316
+2018-11-30 17:07:06,770 - telegram.bot - DEBUG - Getting updates: [805393218]
+2018-11-30 17:07:06,771 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x757a72b0>]
+2018-11-30 17:07:06,771 - telegram.bot - DEBUG - Exiting: get_updates
+2018-11-30 17:07:06,772 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:06,772 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 805393218, 'message': {'message_id': 121, 'date': 1543594026, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': '/addSeries', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 10}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 504648738, 'first_name': 'Lucas', 'is_bot': False, 'language_code': 'en'}}}
+2018-11-30 17:07:06,775 - telegram.bot - DEBUG - Entering: get_me
+2018-11-30 17:07:06,776 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (14): api.telegram.org
+2018-11-30 17:07:06,912 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/getMe HTTP/1.1" 200 112
+2018-11-30 17:07:06,914 - telegram.bot - DEBUG - {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}
+2018-11-30 17:07:06,914 - telegram.bot - DEBUG - Exiting: get_me
+2018-11-30 17:07:06,915 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:07:06,981 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 286
+2018-11-30 17:07:06,982 - telegram.bot - DEBUG - {'message_id': 122, 'date': 1543594026, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Bitte wählen Sie aus einer der folgenden Sendungen...', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:07:06,983 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:07:07,243 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:07:07,299 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 259
+2018-11-30 17:07:07,300 - telegram.bot - DEBUG - {'message_id': 123, 'date': 1543594027, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Bitte Sendung auswählen...', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:07:07,301 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:07:11,791 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:11,792 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:11,794 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (15): api.telegram.org
+2018-11-30 17:07:16,934 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:16,935 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:16,938 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (16): api.telegram.org
+2018-11-30 17:07:20,187 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/getUpdates HTTP/1.1" 200 487
+2018-11-30 17:07:20,190 - telegram.bot - DEBUG - Getting updates: [805393219]
+2018-11-30 17:07:20,192 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7169d690>]
+2018-11-30 17:07:20,192 - telegram.bot - DEBUG - Exiting: get_updates
+2018-11-30 17:07:20,193 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:20,194 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 805393219, 'callback_query': {'id': '2167449828117534256', 'chat_instance': '-104840170594667436', 'message': {'message_id': 123, 'date': 1543594027, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Bitte Sendung auswählen...', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}, 'data': 'ADDSHOW Soy Luna', 'from': {'id': 504648738, 'first_name': 'Lucas', 'is_bot': False, 'language_code': 'en'}}}
+2018-11-30 17:07:20,198 - telegram.bot - DEBUG - Entering: edit_message_text
+2018-11-30 17:07:20,268 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/editMessageText HTTP/1.1" 200 299
+2018-11-30 17:07:20,272 - telegram.bot - DEBUG - {'message_id': 123, 'date': 1543594027, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'edit_date': 1543594040, 'text': 'Die Sendung wurde deiner Liste hinzugefügt.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:07:20,273 - telegram.bot - DEBUG - Exiting: edit_message_text
+2018-11-30 17:07:25,208 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:25,209 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:25,211 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (17): api.telegram.org
+2018-11-30 17:07:30,379 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:30,380 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:30,383 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (18): api.telegram.org
+2018-11-30 17:07:35,561 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:35,562 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:35,564 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (19): api.telegram.org
+2018-11-30 17:07:40,785 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:40,813 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:40,816 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (20): api.telegram.org
+2018-11-30 17:07:45,948 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:45,949 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:45,952 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (21): api.telegram.org
+2018-11-30 17:07:51,119 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:51,120 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:51,122 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (22): api.telegram.org
+2018-11-30 17:07:56,292 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:07:56,293 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:07:56,295 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (23): api.telegram.org
+2018-11-30 17:08:01,443 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:01,445 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:01,446 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (24): api.telegram.org
+2018-11-30 17:08:01,859 - JobQueue - DEBUG - Ticking jobs with t=1543594081.859032
+2018-11-30 17:08:01,859 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594081.858839
+2018-11-30 17:08:01,860 - JobQueue - DEBUG - Running job callback_minute
+2018-11-30 17:08:02,101 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:08:02,220 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 426
+2018-11-30 17:08:02,222 - telegram.bot - DEBUG - {'message_id': 124, 'date': 1543594082, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Soy Luna - Folge 210\nhttps://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry_id/1_smw8itax/version/0', 'entities': [{'type': 'bold', 'offset': 0, 'length': 20}, {'type': 'url', 'offset': 21, 'length': 85}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:08:02,223 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:08:02,224 - JobQueue - DEBUG - Putting job callback_minute with t=1543594142.224133
+2018-11-30 17:08:02,224 - JobQueue - DEBUG - Dropping non-repeating or removed job callback_minute
+2018-11-30 17:08:02,224 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594142.224133
+2018-11-30 17:08:02,225 - JobQueue - DEBUG - Next task isn't due yet. Finished!
+2018-11-30 17:08:06,608 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:06,610 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:06,612 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (25): api.telegram.org
+2018-11-30 17:08:11,757 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:11,760 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:11,762 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (26): api.telegram.org
+2018-11-30 17:08:16,930 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:16,931 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:17,152 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (27): api.telegram.org
+2018-11-30 17:08:22,328 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:22,329 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:22,331 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (28): api.telegram.org
+2018-11-30 17:08:27,480 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:27,481 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:27,483 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (29): api.telegram.org
+2018-11-30 17:08:32,658 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:32,659 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:32,662 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (30): api.telegram.org
+2018-11-30 17:08:37,174 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/getUpdates HTTP/1.1" 200 316
+2018-11-30 17:08:37,176 - telegram.bot - DEBUG - Getting updates: [805393220]
+2018-11-30 17:08:37,178 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x716bd070>]
+2018-11-30 17:08:37,179 - telegram.bot - DEBUG - Exiting: get_updates
+2018-11-30 17:08:37,180 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:37,181 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 805393220, 'message': {'message_id': 125, 'date': 1543594117, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': '/addSeries', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 10}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 504648738, 'first_name': 'Lucas', 'is_bot': False, 'language_code': 'en'}}}
+2018-11-30 17:08:37,186 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:08:37,240 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 286
+2018-11-30 17:08:37,244 - telegram.bot - DEBUG - {'message_id': 126, 'date': 1543594117, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Bitte wählen Sie aus einer der folgenden Sendungen...', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:08:37,245 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:08:37,812 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:08:37,868 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 259
+2018-11-30 17:08:37,869 - telegram.bot - DEBUG - {'message_id': 127, 'date': 1543594117, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Bitte Sendung auswählen...', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:08:37,870 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:08:40,582 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/getUpdates HTTP/1.1" 200 487
+2018-11-30 17:08:40,584 - telegram.bot - DEBUG - Getting updates: [805393221]
+2018-11-30 17:08:40,586 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x7169d830>]
+2018-11-30 17:08:40,587 - telegram.bot - DEBUG - Exiting: get_updates
+2018-11-30 17:08:40,587 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:40,589 - telegram.ext.dispatcher - DEBUG - Processing Update: {'update_id': 805393221, 'callback_query': {'id': '2167449827054581819', 'chat_instance': '-104840170594667436', 'message': {'message_id': 127, 'date': 1543594117, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Bitte Sendung auswählen...', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}, 'data': 'ADDSHOW Violetta', 'from': {'id': 504648738, 'first_name': 'Lucas', 'is_bot': False, 'language_code': 'en'}}}
+2018-11-30 17:08:40,593 - telegram.bot - DEBUG - Entering: edit_message_text
+2018-11-30 17:08:40,738 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/editMessageText HTTP/1.1" 200 299
+2018-11-30 17:08:40,742 - telegram.bot - DEBUG - {'message_id': 127, 'date': 1543594117, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'edit_date': 1543594120, 'text': 'Die Sendung wurde deiner Liste hinzugefügt.', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:08:40,743 - telegram.bot - DEBUG - Exiting: edit_message_text
+2018-11-30 17:08:45,602 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:45,603 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:45,605 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (31): api.telegram.org
+2018-11-30 17:08:50,741 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:50,742 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:50,744 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (32): api.telegram.org
+2018-11-30 17:08:55,911 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:08:55,912 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:08:55,914 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (33): api.telegram.org
+2018-11-30 17:09:01,087 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:01,088 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:02,224 - JobQueue - DEBUG - Ticking jobs with t=1543594142.224354
+2018-11-30 17:09:02,518 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (34): api.telegram.org
+2018-11-30 17:09:02,519 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594142.224133
+2018-11-30 17:09:02,521 - JobQueue - DEBUG - Running job callback_minute
+2018-11-30 17:09:02,828 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:09:02,926 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 425
+2018-11-30 17:09:02,928 - telegram.bot - DEBUG - {'message_id': 128, 'date': 1543594142, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Violetta - Folge 75\nhttps://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry_id/1_ieo1wmit/version/0', 'entities': [{'type': 'bold', 'offset': 0, 'length': 19}, {'type': 'url', 'offset': 20, 'length': 85}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:09:02,929 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:09:02,929 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:09:03,019 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 425
+2018-11-30 17:09:03,021 - telegram.bot - DEBUG - {'message_id': 129, 'date': 1543594142, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Violetta - Folge 74\nhttps://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry_id/1_lwomgchb/version/0', 'entities': [{'type': 'bold', 'offset': 0, 'length': 19}, {'type': 'url', 'offset': 20, 'length': 85}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:09:03,022 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:09:03,022 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:09:03,126 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 425
+2018-11-30 17:09:03,128 - telegram.bot - DEBUG - {'message_id': 130, 'date': 1543594143, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Violetta - Folge 73\nhttps://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry_id/1_6thtqwnl/version/0', 'entities': [{'type': 'bold', 'offset': 0, 'length': 19}, {'type': 'url', 'offset': 20, 'length': 85}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:09:03,129 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:09:03,129 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:09:03,243 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 425
+2018-11-30 17:09:03,245 - telegram.bot - DEBUG - {'message_id': 131, 'date': 1543594143, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Violetta - Folge 72\nhttps://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry_id/1_90jwjc2e/version/0', 'entities': [{'type': 'bold', 'offset': 0, 'length': 19}, {'type': 'url', 'offset': 20, 'length': 85}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:09:03,246 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:09:03,246 - telegram.bot - DEBUG - Entering: send_message
+2018-11-30 17:09:03,326 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot733616451:AAGQ7fahik04S_rCjQAM0ou4yRw1G45v7R8/sendMessage HTTP/1.1" 200 425
+2018-11-30 17:09:03,328 - telegram.bot - DEBUG - {'message_id': 132, 'date': 1543594143, 'chat': {'id': 504648738, 'type': 'private', 'first_name': 'Lucas'}, 'text': 'Violetta - Folge 71\nhttps://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry_id/1_ya4skzvy/version/0', 'entities': [{'type': 'bold', 'offset': 0, 'length': 19}, {'type': 'url', 'offset': 20, 'length': 85}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 733616451, 'first_name': 'Disney Notifier Bot', 'is_bot': True, 'username': 'dnotifierbot'}}
+2018-11-30 17:09:03,329 - telegram.bot - DEBUG - Exiting: send_message
+2018-11-30 17:09:03,330 - JobQueue - DEBUG - Putting job callback_minute with t=1543594203.330260
+2018-11-30 17:09:03,330 - JobQueue - DEBUG - Dropping non-repeating or removed job callback_minute
+2018-11-30 17:09:03,331 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594203.330260
+2018-11-30 17:09:03,331 - JobQueue - DEBUG - Next task isn't due yet. Finished!
+2018-11-30 17:09:07,704 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:07,705 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:07,706 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (35): api.telegram.org
+2018-11-30 17:09:12,855 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:12,857 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:12,859 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (36): api.telegram.org
+2018-11-30 17:09:17,984 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:17,985 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:17,987 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (37): api.telegram.org
+2018-11-30 17:09:23,153 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:23,154 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:23,156 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (38): api.telegram.org
+2018-11-30 17:09:28,336 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:28,337 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:28,338 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (39): api.telegram.org
+2018-11-30 17:09:33,485 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:33,486 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:33,487 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (40): api.telegram.org
+2018-11-30 17:09:38,671 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:38,672 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:38,674 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (41): api.telegram.org
+2018-11-30 17:09:43,853 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:43,856 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:43,858 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (42): api.telegram.org
+2018-11-30 17:09:49,100 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:49,139 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:49,141 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (43): api.telegram.org
+2018-11-30 17:09:54,261 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:54,262 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:54,263 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (44): api.telegram.org
+2018-11-30 17:09:59,416 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:09:59,417 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:09:59,418 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (45): api.telegram.org
+2018-11-30 17:10:03,330 - JobQueue - DEBUG - Ticking jobs with t=1543594203.330545
+2018-11-30 17:10:03,331 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594203.330260
+2018-11-30 17:10:03,332 - JobQueue - DEBUG - Running job callback_minute
+2018-11-30 17:10:03,671 - JobQueue - DEBUG - Putting job callback_minute with t=1543594263.670951
+2018-11-30 17:10:03,671 - JobQueue - DEBUG - Dropping non-repeating or removed job callback_minute
+2018-11-30 17:10:03,672 - JobQueue - DEBUG - Peeked at callback_minute with t=1543594263.670951
+2018-11-30 17:10:03,672 - JobQueue - DEBUG - Next task isn't due yet. Finished!
+2018-11-30 17:10:04,592 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:10:04,593 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:10:04,595 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (46): api.telegram.org
+2018-11-30 17:10:09,768 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:10:09,769 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:10:09,771 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (47): api.telegram.org
+2018-11-30 17:10:14,937 - telegram.ext.updater - DEBUG - Timed out getting Updates: Timed out
+2018-11-30 17:10:14,938 - telegram.bot - DEBUG - Entering: get_updates
+2018-11-30 17:10:14,940 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - DEBUG - Starting new HTTPS connection (48): api.telegram.org
+2018-11-30 17:10:19,604 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2018-11-30 17:10:19,605 - JobQueue - DEBUG - JobQueue thread stopped
+2018-11-30 17:10:19,606 - telegram.ext.updater - DEBUG - Stopping Updater and Dispatcher...
+2018-11-30 17:10:19,607 - telegram.ext.updater - DEBUG - Requesting Dispatcher to stop...
+2018-11-30 17:10:19,778 - telegram.ext.dispatcher - DEBUG - orderly stopping
+2018-11-30 17:10:19,779 - telegram.ext.dispatcher - DEBUG - Dispatcher thread stopped
+2018-11-30 17:10:19,780 - telegram.ext.updater - DEBUG - dispatcher - ended
+2018-11-30 17:10:19,809 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 1/4 to end
+2018-11-30 17:10:19,810 - telegram.ext.dispatcher - DEBUG - Closing run_async thread 75fe63d1-a796-469e-871d-dbdcb77d5b99_0/4
+2018-11-30 17:10:19,811 - telegram.ext.dispatcher - DEBUG - Closing run_async thread 75fe63d1-a796-469e-871d-dbdcb77d5b99_1/4
+2018-11-30 17:10:19,811 - telegram.ext.dispatcher - DEBUG - Closing run_async thread 75fe63d1-a796-469e-871d-dbdcb77d5b99_2/4
+2018-11-30 17:10:19,811 - telegram.ext.dispatcher - DEBUG - Closing run_async thread 75fe63d1-a796-469e-871d-dbdcb77d5b99_3/4
+2018-11-30 17:10:19,814 - telegram.ext.dispatcher - DEBUG - async thread 1/4 has ended
+2018-11-30 17:10:19,815 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 2/4 to end
+2018-11-30 17:10:19,816 - telegram.ext.dispatcher - DEBUG - async thread 2/4 has ended
+2018-11-30 17:10:19,817 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 3/4 to end
+2018-11-30 17:10:19,818 - telegram.ext.dispatcher - DEBUG - async thread 3/4 has ended
+2018-11-30 17:10:19,818 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 4/4 to end
+2018-11-30 17:10:19,819 - telegram.ext.dispatcher - DEBUG - async thread 4/4 has ended
+2018-11-30 17:10:19,819 - telegram.ext.updater - DEBUG - Waiting for dispatcher thread to end
+2018-11-30 17:10:19,820 - telegram.ext.updater - DEBUG - dispatcher thread has ended
+2018-11-30 17:10:19,820 - telegram.ext.updater - DEBUG - Waiting for updater thread to end
+2018-11-30 17:10:19,851 - telegram.ext.updater - WARNING - Exiting immediately!

@@ -114,7 +114,7 @@ def callback_minute(bot, job):
                             if displayName.startswith(item_wl):
                                 if kaltura_id not in botdata[possible_id]['sent_videos']:
                                     downloadURL = fr'https://cdnbakmi.kaltura.com/p/1068292/sp/106829200/raw/entry\_id/{kaltura_id}/version/0'
-                                    bot.send_message(int(possible_id), f'*{displayName}*\n{downloadURL}', parse_mode = 'Markdown')
+                                    bot.send_message(int(possible_id), f'*{displayName}*\n{downloadURL}', parse_mode = 'Markdown', timeout = 100)
                                     botdata[possible_id]['sent_videos'].append(kaltura_id)
                         
     jq.run_once(callback_minute, 60)
